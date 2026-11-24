@@ -1,0 +1,22 @@
+# MediCheck demo – chạy trên CPU (Windows / Linux, Python 3.10–3.12)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+torchvision>=0.17
+numpy
+pillow
+pandas
+pyyaml
+streamlit>=1.50
+# nhánh đơn thuốc
+python-doctr==1.1.0          # DBNet (M2) – đúng phiên bản dùng khi huấn luyện
+transformers>=4.40           # PhoBERT (M4)
+pyvi                         # tách từ tiếng Việt cho PhoBERT
+rapidfuzz                    # so khớp tên thuốc (M5)
+einops                       # VietOCR (M3) – cài vietocr riêng, xem README
+gdown
+matplotlib
+requests
+tqdm
+# nhánh viên thuốc
+ultralytics>=8.3             # YOLO11 (M6)
+timm>=1.0                    # ConvNeXt-T (M7)

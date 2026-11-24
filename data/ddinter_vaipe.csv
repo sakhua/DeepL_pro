@@ -1,0 +1,343 @@
+ddinter_id_a,drug_a,ddinter_id_b,drug_b,level,level_vi
+DDInter11,Acarbose,DDInter790,Furosemide,Moderate,Trung bình
+DDInter11,Acarbose,DDInter883,Hydrochlorothiazide,Moderate,Trung bình
+DDInter11,Acarbose,DDInter1164,Metformin,Minor,Nhẹ
+DDInter11,Acarbose,DDInter1191,Methylprednisolone,Moderate,Trung bình
+DDInter11,Acarbose,DDInter1326,Olanzapine,Moderate,Trung bình
+DDInter712,Famotidine,DDInter335,Cefuroxime,Moderate,Trung bình
+DDInter451,Cyanocobalamin,DDInter712,Famotidine,Minor,Nhẹ
+DDInter537,Diclofenac,DDInter712,Famotidine,Minor,Nhẹ
+DDInter1202,Metronidazole,DDInter712,Famotidine,Minor,Nhẹ
+DDInter1326,Olanzapine,DDInter712,Famotidine,Moderate,Trung bình
+DDInter20,Acetylsalicylic acid,DDInter1291,Nifedipine,Moderate,Trung bình
+DDInter1164,Metformin,DDInter1291,Nifedipine,Moderate,Trung bình
+DDInter1340,Omeprazole,DDInter1291,Nifedipine,Minor,Nhẹ
+DDInter367,Cholecalciferol,DDInter883,Hydrochlorothiazide,Moderate,Trung bình
+DDInter790,Furosemide,DDInter20,Acetylsalicylic acid,Minor,Nhẹ
+DDInter676,Esomeprazole,DDInter883,Hydrochlorothiazide,Moderate,Trung bình
+DDInter1164,Metformin,DDInter883,Hydrochlorothiazide,Moderate,Trung bình
+DDInter1340,Omeprazole,DDInter883,Hydrochlorothiazide,Moderate,Trung bình
+DDInter1388,Pantoprazole,DDInter883,Hydrochlorothiazide,Moderate,Trung bình
+DDInter48,Allopurinol,DDInter83,Amoxicillin,Minor,Nhẹ
+DDInter1164,Metformin,DDInter339,Cephalexin,Moderate,Trung bình
+DDInter1164,Metformin,DDInter537,Diclofenac,Moderate,Trung bình
+DDInter1164,Metformin,DDInter638,Enalapril,Moderate,Trung bình
+DDInter1164,Metformin,DDInter790,Furosemide,Moderate,Trung bình
+DDInter1164,Metformin,DDInter1143,Meloxicam,Moderate,Trung bình
+DDInter1164,Metformin,DDInter1191,Methylprednisolone,Moderate,Trung bình
+DDInter1164,Metformin,DDInter1326,Olanzapine,Moderate,Trung bình
+DDInter79,Amlodipine,DDInter20,Acetylsalicylic acid,Moderate,Trung bình
+DDInter676,Esomeprazole,DDInter718,Fenofibrate,Moderate,Trung bình
+DDInter1340,Omeprazole,DDInter718,Fenofibrate,Moderate,Trung bình
+DDInter1388,Pantoprazole,DDInter718,Fenofibrate,Moderate,Trung bình
+DDInter216,Bisoprolol,DDInter20,Acetylsalicylic acid,Minor,Nhẹ
+DDInter638,Enalapril,DDInter20,Acetylsalicylic acid,Moderate,Trung bình
+DDInter676,Esomeprazole,DDInter20,Acetylsalicylic acid,Minor,Nhẹ
+DDInter1095,Losartan,DDInter20,Acetylsalicylic acid,Moderate,Trung bình
+DDInter20,Acetylsalicylic acid,DDInter1191,Methylprednisolone,Moderate,Trung bình
+DDInter1340,Omeprazole,DDInter20,Acetylsalicylic acid,Minor,Nhẹ
+DDInter1388,Pantoprazole,DDInter20,Acetylsalicylic acid,Minor,Nhẹ
+DDInter20,Acetylsalicylic acid,DDInter1759,Telmisartan,Moderate,Trung bình
+DDInter1340,Omeprazole,DDInter133,Atorvastatin,Moderate,Trung bình
+DDInter1340,Omeprazole,DDInter335,Cefuroxime,Moderate,Trung bình
+DDInter537,Diclofenac,DDInter20,Acetylsalicylic acid,Moderate,Trung bình
+DDInter1340,Omeprazole,DDInter790,Furosemide,Moderate,Trung bình
+DDInter20,Acetylsalicylic acid,DDInter819,Ginkgo biloba,Moderate,Trung bình
+DDInter1143,Meloxicam,DDInter20,Acetylsalicylic acid,Moderate,Trung bình
+DDInter676,Esomeprazole,DDInter133,Atorvastatin,Moderate,Trung bình
+DDInter1202,Metronidazole,DDInter133,Atorvastatin,Moderate,Trung bình
+DDInter1388,Pantoprazole,DDInter133,Atorvastatin,Moderate,Trung bình
+DDInter1202,Metronidazole,DDInter431,Colchicine,Moderate,Trung bình
+DDInter451,Cyanocobalamin,DDInter676,Esomeprazole,Minor,Nhẹ
+DDInter451,Cyanocobalamin,DDInter1340,Omeprazole,Minor,Nhẹ
+DDInter451,Cyanocobalamin,DDInter1388,Pantoprazole,Minor,Nhẹ
+DDInter676,Esomeprazole,DDInter335,Cefuroxime,Moderate,Trung bình
+DDInter1388,Pantoprazole,DDInter335,Cefuroxime,Moderate,Trung bình
+DDInter1326,Olanzapine,DDInter1202,Metronidazole,Minor,Nhẹ
+DDInter1388,Pantoprazole,DDInter790,Furosemide,Moderate,Trung bình
+DDInter790,Furosemide,DDInter676,Esomeprazole,Moderate,Trung bình
+DDInter451,Cyanocobalamin,DDInter11,Acarbose,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter1164,Metformin,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter1941,Vitamin A,Unknown,Chưa rõ mức độ
+DDInter1941,Vitamin A,DDInter14,Acetaminophen,Unknown,Chưa rõ mức độ
+DDInter1941,Vitamin A,DDInter1164,Metformin,Unknown,Chưa rõ mức độ
+DDInter1941,Vitamin A,DDInter1340,Omeprazole,Unknown,Chưa rõ mức độ
+DDInter1941,Vitamin A,DDInter48,Allopurinol,Unknown,Chưa rõ mức độ
+DDInter1941,Vitamin A,DDInter790,Furosemide,Unknown,Chưa rõ mức độ
+DDInter1941,Vitamin A,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter1941,Vitamin A,DDInter20,Acetylsalicylic acid,Unknown,Chưa rõ mức độ
+DDInter1941,Vitamin A,DDInter133,Atorvastatin,Unknown,Chưa rõ mức độ
+DDInter1941,Vitamin A,DDInter1942,Vitamin D,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter11,Acarbose,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter48,Allopurinol,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter1759,Telmisartan,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter48,Allopurinol,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter1759,Telmisartan,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter14,Acetaminophen,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter14,Acetaminophen,Unknown,Chưa rõ mức độ
+DDInter14,Acetaminophen,DDInter1164,Metformin,Unknown,Chưa rõ mức độ
+DDInter14,Acetaminophen,DDInter1340,Omeprazole,Unknown,Chưa rõ mức độ
+DDInter14,Acetaminophen,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter14,Acetaminophen,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter14,Acetaminophen,DDInter20,Acetylsalicylic acid,Unknown,Chưa rõ mức độ
+DDInter14,Acetaminophen,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter1164,Metformin,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter1340,Omeprazole,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter48,Allopurinol,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter1759,Telmisartan,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter1326,Olanzapine,Unknown,Chưa rõ mức độ
+DDInter1326,Olanzapine,DDInter1340,Omeprazole,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter1340,Omeprazole,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter1340,Omeprazole,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter48,Allopurinol,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter1759,Telmisartan,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter79,Amlodipine,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter79,Amlodipine,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter79,Amlodipine,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter79,Amlodipine,Unknown,Chưa rõ mức độ
+DDInter79,Amlodipine,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter79,Amlodipine,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter79,Amlodipine,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter1091,Loratadine,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter1091,Loratadine,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter1091,Loratadine,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter1091,Loratadine,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter339,Cephalexin,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter339,Cephalexin,Unknown,Chưa rõ mức độ
+DDInter339,Cephalexin,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter339,Cephalexin,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter638,Enalapril,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter638,Enalapril,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter638,Enalapril,Unknown,Chưa rõ mức độ
+DDInter638,Enalapril,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter638,Enalapril,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter537,Diclofenac,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter537,Diclofenac,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter537,Diclofenac,Unknown,Chưa rõ mức độ
+DDInter537,Diclofenac,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter592,Doxazosin,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter592,Doxazosin,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter592,Doxazosin,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter592,Doxazosin,Unknown,Chưa rõ mức độ
+DDInter592,Doxazosin,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter592,Doxazosin,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter216,Bisoprolol,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter216,Bisoprolol,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter216,Bisoprolol,Unknown,Chưa rõ mức độ
+DDInter216,Bisoprolol,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter216,Bisoprolol,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter319,Cefixime,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter1095,Losartan,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter1095,Losartan,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter1095,Losartan,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter1095,Losartan,Unknown,Chưa rõ mức độ
+DDInter1095,Losartan,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter790,Furosemide,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter1143,Meloxicam,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter1143,Meloxicam,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter1143,Meloxicam,Unknown,Chưa rõ mức độ
+DDInter1143,Meloxicam,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter48,Allopurinol,DDInter1202,Metronidazole,Unknown,Chưa rõ mức độ
+DDInter1202,Metronidazole,DDInter1759,Telmisartan,Unknown,Chưa rõ mức độ
+DDInter1202,Metronidazole,DDInter1291,Nifedipine,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter48,Allopurinol,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter1095,Losartan,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter790,Furosemide,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter1143,Meloxicam,DDInter712,Famotidine,Unknown,Chưa rõ mức độ
+DDInter712,Famotidine,DDInter1191,Methylprednisolone,Unknown,Chưa rõ mức độ
+DDInter712,Famotidine,DDInter1759,Telmisartan,Unknown,Chưa rõ mức độ
+DDInter712,Famotidine,DDInter883,Hydrochlorothiazide,Unknown,Chưa rõ mức độ
+DDInter712,Famotidine,DDInter718,Fenofibrate,Unknown,Chưa rõ mức độ
+DDInter712,Famotidine,DDInter1291,Nifedipine,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter20,Acetylsalicylic acid,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter20,Acetylsalicylic acid,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter20,Acetylsalicylic acid,Unknown,Chưa rõ mức độ
+DDInter1326,Olanzapine,DDInter20,Acetylsalicylic acid,Unknown,Chưa rõ mức độ
+DDInter48,Allopurinol,DDInter20,Acetylsalicylic acid,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter20,Acetylsalicylic acid,Unknown,Chưa rõ mức độ
+DDInter339,Cephalexin,DDInter20,Acetylsalicylic acid,Unknown,Chưa rõ mức độ
+DDInter592,Doxazosin,DDInter20,Acetylsalicylic acid,Unknown,Chưa rõ mức độ
+DDInter1202,Metronidazole,DDInter20,Acetylsalicylic acid,Unknown,Chưa rõ mức độ
+DDInter712,Famotidine,DDInter20,Acetylsalicylic acid,Unknown,Chưa rõ mức độ
+DDInter20,Acetylsalicylic acid,DDInter883,Hydrochlorothiazide,Unknown,Chưa rõ mức độ
+DDInter20,Acetylsalicylic acid,DDInter718,Fenofibrate,Unknown,Chưa rõ mức độ
+DDInter20,Acetylsalicylic acid,DDInter133,Atorvastatin,Unknown,Chưa rõ mức độ
+DDInter20,Acetylsalicylic acid,DDInter335,Cefuroxime,Unknown,Chưa rõ mức độ
+DDInter20,Acetylsalicylic acid,DDInter310,Cefadroxil,Unknown,Chưa rõ mức độ
+DDInter20,Acetylsalicylic acid,DDInter1942,Vitamin D,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter1191,Methylprednisolone,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter1191,Methylprednisolone,Unknown,Chưa rõ mức độ
+DDInter1202,Metronidazole,DDInter1191,Methylprednisolone,Unknown,Chưa rõ mức độ
+DDInter1202,Metronidazole,DDInter883,Hydrochlorothiazide,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter718,Fenofibrate,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter718,Fenofibrate,Unknown,Chưa rõ mức độ
+DDInter1202,Metronidazole,DDInter718,Fenofibrate,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter1326,Olanzapine,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter339,Cephalexin,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter638,Enalapril,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter537,Diclofenac,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter592,Doxazosin,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter216,Bisoprolol,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter1095,Losartan,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter790,Furosemide,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter1143,Meloxicam,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter1202,Metronidazole,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter712,Famotidine,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter20,Acetylsalicylic acid,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter1191,Methylprednisolone,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter883,Hydrochlorothiazide,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter718,Fenofibrate,DDInter83,Amoxicillin,Unknown,Chưa rõ mức độ
+DDInter83,Amoxicillin,DDInter133,Atorvastatin,Unknown,Chưa rõ mức độ
+DDInter83,Amoxicillin,DDInter335,Cefuroxime,Unknown,Chưa rõ mức độ
+DDInter83,Amoxicillin,DDInter1291,Nifedipine,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter133,Atorvastatin,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter133,Atorvastatin,Unknown,Chưa rõ mức độ
+DDInter712,Famotidine,DDInter133,Atorvastatin,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter335,Cefuroxime,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter335,Cefuroxime,Unknown,Chưa rõ mức độ
+DDInter1202,Metronidazole,DDInter335,Cefuroxime,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter362,Chlorpheniramine,Unknown,Chưa rõ mức độ
+DDInter712,Famotidine,DDInter362,Chlorpheniramine,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter1291,Nifedipine,Unknown,Chưa rõ mức độ
+DDInter11,Acarbose,DDInter1291,Nifedipine,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter310,Cefadroxil,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter310,Cefadroxil,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter310,Cefadroxil,Unknown,Chưa rõ mức độ
+DDInter1202,Metronidazole,DDInter310,Cefadroxil,Unknown,Chưa rõ mức độ
+DDInter712,Famotidine,DDInter310,Cefadroxil,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter1202,Metronidazole,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter712,Famotidine,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter20,Acetylsalicylic acid,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter83,Amoxicillin,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter1388,Pantoprazole,DDInter1942,Vitamin D,Unknown,Chưa rõ mức độ
+DDInter1164,Metformin,DDInter1942,Vitamin D,Unknown,Chưa rõ mức độ
+DDInter1340,Omeprazole,DDInter1942,Vitamin D,Unknown,Chưa rõ mức độ
+DDInter712,Famotidine,DDInter1942,Vitamin D,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter1326,Olanzapine,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter48,Allopurinol,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter1091,Loratadine,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter638,Enalapril,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter537,Diclofenac,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter592,Doxazosin,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter1095,Losartan,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter790,Furosemide,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter1143,Meloxicam,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter1191,Methylprednisolone,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter1759,Telmisartan,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter883,Hydrochlorothiazide,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter718,Fenofibrate,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter1291,Nifedipine,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter1942,Vitamin D,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter14,Acetaminophen,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter79,Amlodipine,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter339,Cephalexin,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter133,Atorvastatin,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter335,Cefuroxime,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter310,Cefadroxil,Unknown,Chưa rõ mức độ
+DDInter451,Cyanocobalamin,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter569,Diphenhydramine,DDInter362,Chlorpheniramine,Moderate,Trung bình
+DDInter537,Diclofenac,DDInter1291,Nifedipine,Moderate,Trung bình
+DDInter1191,Methylprednisolone,DDInter1291,Nifedipine,Moderate,Trung bình
+DDInter790,Furosemide,DDInter569,Diphenhydramine,Moderate,Trung bình
+DDInter537,Diclofenac,DDInter883,Hydrochlorothiazide,Moderate,Trung bình
+DDInter1191,Methylprednisolone,DDInter883,Hydrochlorothiazide,Moderate,Trung bình
+DDInter79,Amlodipine,DDInter537,Diclofenac,Moderate,Trung bình
+DDInter79,Amlodipine,DDInter1191,Methylprednisolone,Moderate,Trung bình
+DDInter537,Diclofenac,DDInter718,Fenofibrate,Moderate,Trung bình
+DDInter537,Diclofenac,DDInter216,Bisoprolol,Moderate,Trung bình
+DDInter216,Bisoprolol,DDInter569,Diphenhydramine,Moderate,Trung bình
+DDInter216,Bisoprolol,DDInter1191,Methylprednisolone,Moderate,Trung bình
+DDInter638,Enalapril,DDInter537,Diclofenac,Moderate,Trung bình
+DDInter537,Diclofenac,DDInter790,Furosemide,Moderate,Trung bình
+DDInter537,Diclofenac,DDInter1095,Losartan,Moderate,Trung bình
+DDInter537,Diclofenac,DDInter1143,Meloxicam,Moderate,Trung bình
+DDInter537,Diclofenac,DDInter1191,Methylprednisolone,Moderate,Trung bình
+DDInter537,Diclofenac,DDInter1759,Telmisartan,Moderate,Trung bình
+DDInter592,Doxazosin,DDInter569,Diphenhydramine,Moderate,Trung bình
+DDInter638,Enalapril,DDInter569,Diphenhydramine,Moderate,Trung bình
+DDInter1095,Losartan,DDInter569,Diphenhydramine,Moderate,Trung bình
+DDInter1326,Olanzapine,DDInter569,Diphenhydramine,Moderate,Trung bình
+DDInter1759,Telmisartan,DDInter569,Diphenhydramine,Moderate,Trung bình
+DDInter592,Doxazosin,DDInter1191,Methylprednisolone,Moderate,Trung bình
+DDInter638,Enalapril,DDInter1191,Methylprednisolone,Moderate,Trung bình
+DDInter1095,Losartan,DDInter1191,Methylprednisolone,Moderate,Trung bình
+DDInter790,Furosemide,DDInter1191,Methylprednisolone,Moderate,Trung bình
+DDInter1143,Meloxicam,DDInter1191,Methylprednisolone,Moderate,Trung bình
+DDInter1191,Methylprednisolone,DDInter1759,Telmisartan,Moderate,Trung bình
+DDInter14,Acetaminophen,DDInter537,Diclofenac,Unknown,Chưa rõ mức độ
+DDInter14,Acetaminophen,DDInter1191,Methylprednisolone,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter1191,Methylprednisolone,Unknown,Chưa rõ mức độ
+DDInter339,Cephalexin,DDInter537,Diclofenac,Unknown,Chưa rõ mức độ
+DDInter339,Cephalexin,DDInter1191,Methylprednisolone,Unknown,Chưa rõ mức độ
+DDInter1326,Olanzapine,DDInter537,Diclofenac,Unknown,Chưa rõ mức độ
+DDInter48,Allopurinol,DDInter537,Diclofenac,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter537,Diclofenac,Unknown,Chưa rõ mức độ
+DDInter537,Diclofenac,DDInter592,Doxazosin,Unknown,Chưa rõ mức độ
+DDInter537,Diclofenac,DDInter1942,Vitamin D,Unknown,Chưa rõ mức độ
+DDInter1326,Olanzapine,DDInter1191,Methylprednisolone,Unknown,Chưa rõ mức độ
+DDInter48,Allopurinol,DDInter1191,Methylprednisolone,Unknown,Chưa rõ mức độ
+DDInter1191,Methylprednisolone,DDInter718,Fenofibrate,Unknown,Chưa rõ mức độ
+DDInter537,Diclofenac,DDInter133,Atorvastatin,Unknown,Chưa rõ mức độ
+DDInter1191,Methylprednisolone,DDInter133,Atorvastatin,Unknown,Chưa rõ mức độ
+DDInter537,Diclofenac,DDInter335,Cefuroxime,Unknown,Chưa rõ mức độ
+DDInter1191,Methylprednisolone,DDInter335,Cefuroxime,Unknown,Chưa rõ mức độ
+DDInter537,Diclofenac,DDInter362,Chlorpheniramine,Unknown,Chưa rõ mức độ
+DDInter1191,Methylprednisolone,DDInter310,Cefadroxil,Unknown,Chưa rõ mức độ
+DDInter537,Diclofenac,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter1191,Methylprednisolone,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter1191,Methylprednisolone,DDInter1942,Vitamin D,Unknown,Chưa rõ mức độ
+DDInter1326,Olanzapine,DDInter362,Chlorpheniramine,Moderate,Trung bình
+DDInter14,Acetaminophen,DDInter1091,Loratadine,Unknown,Chưa rõ mức độ
+DDInter14,Acetaminophen,DDInter362,Chlorpheniramine,Unknown,Chưa rõ mức độ
+DDInter79,Amlodipine,DDInter1091,Loratadine,Unknown,Chưa rõ mức độ
+DDInter1326,Olanzapine,DDInter1091,Loratadine,Unknown,Chưa rõ mức độ
+DDInter48,Allopurinol,DDInter1091,Loratadine,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter1095,Losartan,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter1143,Meloxicam,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter1759,Telmisartan,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter1291,Nifedipine,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter339,Cephalexin,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter638,Enalapril,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter592,Doxazosin,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter790,Furosemide,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter883,Hydrochlorothiazide,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter718,Fenofibrate,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter133,Atorvastatin,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter335,Cefuroxime,Unknown,Chưa rõ mức độ
+DDInter48,Allopurinol,DDInter362,Chlorpheniramine,Unknown,Chưa rõ mức độ
+DDInter790,Furosemide,DDInter362,Chlorpheniramine,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter310,Cefadroxil,Unknown,Chưa rõ mức độ
+DDInter14,Acetaminophen,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter1326,Olanzapine,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter79,Amlodipine,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter48,Allopurinol,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter339,Cephalexin,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter638,Enalapril,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter592,Doxazosin,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter216,Bisoprolol,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter1095,Losartan,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter790,Furosemide,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter883,Hydrochlorothiazide,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter718,Fenofibrate,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter133,Atorvastatin,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter335,Cefuroxime,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter1291,Nifedipine,DDInter19,Acetylcysteine,Unknown,Chưa rõ mức độ
+DDInter1091,Loratadine,DDInter1942,Vitamin D,Unknown,Chưa rõ mức độ

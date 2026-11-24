@@ -1,0 +1,164 @@
+{
+ "id": "VAIPE_P_TRAIN_281",
+ "nguon": "VAIPE (Elfsong/VAIPE_PILL trên Hugging Face) — thuộc tập test của nhóm",
+ "ghi_chu": "Đơn 4 thuốc; ảnh 1 có 2 viên đúng đơn, ảnh 2 và 3 toàn viên KHÔNG có trong đơn (nhãn 107 = ngoài đơn) — dùng để thử cảnh báo.",
+ "thuoc_trong_don": [
+  {
+   "dong": "1) Amoxicilin (Fabamox 500) 500mg",
+   "cls": 10
+  },
+  {
+   "dong": "2) Paracetamol (Partamol Tab.) 500mg",
+   "cls": 89
+  },
+  {
+   "dong": "3) Metronidazol (Metronidazol 250) 250 mg",
+   "cls": 51
+  },
+  {
+   "dong": "4) Đinh lăng, bạch quả (Hoạt huyết dưỡng não) 150mg+20mg",
+   "cls": 64
+  }
+ ],
+ "c_don_that": [
+  10,
+  51,
+  64,
+  89
+ ],
+ "anh_vien": {
+  "anh_vien_281_0.jpg": [
+   {
+    "cls": 64,
+    "box": [
+     217.4,
+     477.5,
+     357.6,
+     624.0
+    ]
+   },
+   {
+    "cls": 64,
+    "box": [
+     330.4,
+     433.0,
+     466.8,
+     565.3
+    ]
+   }
+  ],
+  "anh_vien_281_1.jpg": [
+   {
+    "cls": 107,
+    "box": [
+     464.3,
+     614.3,
+     537.1,
+     707.6
+    ]
+   },
+   {
+    "cls": 107,
+    "box": [
+     348.2,
+     573.5,
+     430.2,
+     662.1
+    ]
+   },
+   {
+    "cls": 107,
+    "box": [
+     402.8,
+     446.0,
+     496.0,
+     536.9
+    ]
+   },
+   {
+    "cls": 107,
+    "box": [
+     243.6,
+     543.7,
+     329.9,
+     653.0
+    ]
+   },
+   {
+    "cls": 107,
+    "box": [
+     343.6,
+     739.6,
+     516.6,
+     830.5
+    ]
+   },
+   {
+    "cls": 107,
+    "box": [
+     179.8,
+     682.7,
+     350.5,
+     782.7
+    ]
+   }
+  ],
+  "anh_vien_281_2.jpg": [
+   {
+    "cls": 107,
+    "box": [
+     460.2,
+     343.4,
+     626.8,
+     521.7
+    ]
+   },
+   {
+    "cls": 107,
+    "box": [
+     724.6,
+     363.4,
+     838.9,
+     484.3
+    ]
+   },
+   {
+    "cls": 107,
+    "box": [
+     623.5,
+     391.6,
+     741.6,
+     491.9
+    ]
+   },
+   {
+    "cls": 107,
+    "box": [
+     566.6,
+     170.2,
+     720.8,
+     331.4
+    ]
+   },
+   {
+    "cls": 107,
+    "box": [
+     284.4,
+     407.4,
+     446.0,
+     577.0
+    ]
+   },
+   {
+    "cls": 107,
+    "box": [
+     714.4,
+     204.7,
+     812.7,
+     329.4
+    ]
+   }
+  ]
+ },
+ "ghi_chu_khung": "box = [x1,y1,x2,y2] trên ảnh đã thu về cạnh dài 1024 px; nhãn 107 = viên ngoài đơn"
+}

@@ -1,0 +1,108 @@
+﻿class_id,ten_thuoc,hoat_chat,ddinter_names,loai,can_kiem_tra,ghi_chu
+0,Paracetamol 500mg,paracetamol,Acetaminophen,tân dược,,
+1,Troysar AM 5mg+50mg,amlodipin + losartan,Amlodipine;Losartan,tân dược,x,nhãn VAIPE lẫn với Tydol PM
+2,Dixirein 375mg,carbocistein,,tân dược,x,DDInter bản tải không có carbocistein
+3,Mediplex 800mg,piracetam (?),,tân dược,x,chưa chắc hoạt chất
+4,Becosemid 40mg,furosemid,Furosemide,tân dược,x,
+5,Sergurop 10mg,loratadin,Loratadine,tân dược,,
+6,Sadapron 300mg,alopurinol,Allopurinol,tân dược,,
+7,"Katrypsin 4,2mg",alpha chymotrypsin,,tân dược,,không có trong DDInter
+8,Kavasdin 5mg,amlodipin,Amlodipine,tân dược,,
+9,Amoxycilin 250mg,amoxicilin,Amoxicillin,tân dược,,
+10,Fabamox 500mg,amoxicilin,Amoxicillin,tân dược,,
+11,Aspirin 81mg,acid acetylsalicylic,Acetylsalicylic acid,tân dược,,
+12,Inbacid 10mg,(chưa xác định),,tân dược,x,chưa rõ hoạt chất
+13,Atoris 20mg,atorvastatin,Atorvastatin,tân dược,,
+14,Leninarto 10mg,atorvastatin (?),Atorvastatin,tân dược,x,chưa chắc hoạt chất
+15,Atoris 20mg,atorvastatin,Atorvastatin,tân dược,,
+16,Avarino 60mg+300mg,(chưa xác định),,tân dược,x,chưa rõ hoạt chất
+17,Cefixim 200mg,cefixim,Cefixime,tân dược,,
+18,Bổ gan P/H,thảo dược,,đông dược,,không có trong DDInter
+19,Cefadroxil 500mg,cefadroxil,Cefadroxil,tân dược,,
+20,Tioga,thảo dược,,đông dược,x,không có trong DDInter
+21,Dixirein 375mg,carbocistein,,tân dược,x,DDInter bản tải không có carbocistein
+22,Cardilopin 5mg,amlodipin,Amlodipine,tân dược,,
+23,Carudxan 2mg,doxazosin (?),Doxazosin,tân dược,x,chưa chắc hoạt chất
+24,Xitoran 500mg,cefadroxil,Cefadroxil,tân dược,x,
+25,Cephalexin 250mg,cefalexin,Cephalexin,tân dược,,
+26,Firstlexin 500mg,cefalexin,Cephalexin,tân dược,,
+27,Ingaron 200 DST,(chưa xác định),,tân dược,x,chưa rõ hoạt chất
+28,"Alfachim 4,2mg",alpha chymotrypsin,,tân dược,,không có trong DDInter
+29,Clorpheniramin 4mg,clorpheniramin,Chlorpheniramine,tân dược,,
+30,Colchicin 1mg,colchicin,Colchicine,tân dược,,
+31,Savi Prolol 5mg,bisoprolol,Bisoprolol,tân dược,,
+32,Cosyndo B,vitamin B1 + B6 + B12,Pyridoxine;Cyanocobalamin,tân dược,,vitamin B1 không có trong DDInter
+33,Bloza 50mg,(chưa xác định),,tân dược,x,chưa rõ hoạt chất
+34,Fudcime 200mg,cefixim,Cefixime,tân dược,,
+35,Chorlatcyn,thảo dược (?),,đông dược,x,chưa rõ thành phần
+36,Dromasm Fort 80mg,drotaverin,,tân dược,,DDInter bản tải không có drotaverin
+37,Diamicron MR 60mg,gliclazid,,tân dược,,DDInter bản tải không có gliclazid
+38,Lazibet MR 60mg,gliclazid,,tân dược,,DDInter bản tải không có gliclazid
+39,Diclofenac 50mg,diclofenac,Diclofenac,tân dược,,
+40,Mezafen 60mg,loxoprofen,,tân dược,,DDInter bản tải không có loxoprofen
+41,"Saviprolol 2,5mg",bisoprolol,Bisoprolol,tân dược,,
+42,Golddicron 30mg,gliclazid,,tân dược,,DDInter bản tải không có gliclazid
+43,Cefadroxil 500mg,cefadroxil,Cefadroxil,tân dược,,
+44,Dưỡng tâm an thần,thảo dược,,đông dược,,không có trong DDInter
+45,Ebitac 12.5,enalapril + hydroclorothiazid,Enalapril;Hydrochlorothiazide,tân dược,,
+46,Enalapril 5mg,enalapril,Enalapril,tân dược,,
+47,Renapril 5mg,enalapril,Enalapril,tân dược,,
+48,Dromasm Fort 80mg,drotaverin,,tân dược,,DDInter bản tải không có drotaverin
+49,Fabamox 500mg,amoxicilin,Amoxicillin,tân dược,,
+50,Famogast 40mg,famotidin,Famotidine,tân dược,,
+51,Metronidazol 250mg,metronidazol,Metronidazole,tân dược,,
+52,Medibogan,thảo dược (?),,đông dược,x,chưa rõ thành phần
+53,Glucofast 850mg,metformin,Metformin,tân dược,,
+54,Glucofast 500mg,metformin,Metformin,tân dược,,
+55,Meglucon 850mg,metformin,Metformin,tân dược,,
+56,Meglucon 1000mg,metformin,Metformin,tân dược,,
+57,Glucofast 850mg,metformin,Metformin,tân dược,,
+58,Fibrofin-145,fenofibrat,Fenofibrate,tân dược,,
+59,Bromhexin Actavis 8mg,bromhexin,,tân dược,,DDInter bản tải không có bromhexin
+60,Tydol PM,paracetamol + diphenhydramin,Acetaminophen;Diphenhydramine,tân dược,,
+61,Hapenxin 500mg,cefalexin,Cephalexin,tân dược,,
+62,Kahagan,thảo dược (?),,đông dược,x,chưa rõ thành phần
+63,Bromhexin Actavis 8mg,bromhexin,,tân dược,,DDInter bản tải không có bromhexin
+64,Hoạt huyết dưỡng não,"thảo dược (đinh lăng, bạch quả)",Ginkgo biloba,đông dược,x,dùng tương tác của bạch quả (Ginkgo biloba)
+65,Bổ huyết ích não BDF,thảo dược,,đông dược,,không có trong DDInter
+66,Kagasdine 20mg,omeprazol,Omeprazole,tân dược,,
+67,Kim tiền thảo,thảo dược,,đông dược,,không có trong DDInter
+68,Livonic,(chưa xác định),,thực phẩm chức năng,x,chưa rõ thành phần
+69,Gaphyton S,thảo dược (?),,đông dược,x,chưa rõ thành phần
+70,Sergurop 10mg,loratadin,Loratadine,tân dược,,
+71,Vaco Loratadine 10mg,loratadin,Loratadine,tân dược,,
+72,Savi Losartan 50mg,losartan,Losartan,tân dược,,
+73,Vipredni 16mg,methylprednisolon,Methylprednisolone,tân dược,,
+74,Menison 4mg,methylprednisolon,Methylprednisolone,tân dược,,
+75,Vipredni 16mg,methylprednisolon,Methylprednisolone,tân dược,,
+76,Methylprednisolon 4mg,methylprednisolon,Methylprednisolone,tân dược,,
+77,Vipredni 16mg,methylprednisolon,Methylprednisolone,tân dược,,
+78,Mezafen 60mg,loxoprofen,,tân dược,,DDInter bản tải không có loxoprofen
+79,Hangitor Plus,telmisartan + hydroclorothiazid,Telmisartan;Hydrochlorothiazide,tân dược,,
+80,Milurit 300mg,alopurinol,Allopurinol,tân dược,,
+81,"Meloxicam 7,5mg",meloxicam,Meloxicam,tân dược,,
+82,Novoxim-500,amoxicilin (?),Amoxicillin,tân dược,x,VAIPE gán cùng tên Novoxim-500 với mã 10 (amoxicilin) – cần kiểm tra lại hoạt chất
+83,Thanh nhiệt tiêu độc Livergood,thảo dược,,đông dược,,không có trong DDInter
+84,Nifedipin Retard 20mg,nifedipin,Nifedipine,tân dược,,
+85,Normagut 250mg,Saccharomyces boulardii (men vi sinh),,tân dược,,không có trong DDInter
+86,Olanzapin 10mg,olanzapin,Olanzapine,tân dược,,
+87,Kagasdine 20mg,omeprazol,Omeprazole,tân dược,,
+88,Panactol 500mg,paracetamol,Acetaminophen,tân dược,,
+89,Mypara 500mg,paracetamol,Acetaminophen,tân dược,,
+90,Panactol 500mg,paracetamol,Acetaminophen,tân dược,,
+91,Panactol 500mg,paracetamol,Acetaminophen,tân dược,,
+92,Stacetam 800mg,piracetam,,tân dược,,DDInter bản tải không có piracetam
+93,Prazopro 40mg,esomeprazol (?),Esomeprazole,tân dược,x,chưa chắc hoạt chất
+94,Spasvina 40mg,drotaverin (?),,tân dược,x,chưa chắc hoạt chất
+95,Venrutine,rutin + vitamin C (?),Ascorbic acid,thực phẩm chức năng,x,chưa chắc thành phần
+96,Savi Acarbose 100mg,acarbose,Acarbose,tân dược,,
+97,Chorlatcyn,thảo dược (?),,đông dược,x,chưa rõ thành phần
+98,Alverin 40mg,alverin,,tân dược,,DDInter bản tải không có alverin
+99,Partamol 500mg,paracetamol,Acetaminophen,tân dược,,
+100,Setblood,(chưa xác định),,thực phẩm chức năng,x,chưa rõ thành phần
+101,Tydol PM,paracetamol + diphenhydramin,Acetaminophen;Diphenhydramine,tân dược,,
+102,Venrutine,rutin + vitamin C (?),Ascorbic acid,thực phẩm chức năng,x,chưa chắc thành phần
+103,Vina-AD,vitamin A + vitamin D,Vitamin A;Vitamin D,tân dược,,
+104,Cosyndo B,vitamin B1 + B6 + B12,Pyridoxine;Cyanocobalamin,tân dược,,vitamin B1 không có trong DDInter
+105,Vitamin C Stada 1g,vitamin C,Ascorbic acid,tân dược,,
+106,C1000 Floode,vitamin C,Ascorbic acid,tân dược,,

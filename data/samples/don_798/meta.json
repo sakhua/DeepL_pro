@@ -1,0 +1,53 @@
+{
+ "id": "VAIPE_P_TRAIN_798",
+ "nguon": "VAIPE (Elfsong/VAIPE_PILL trên Hugging Face) — thuộc tập test của nhóm",
+ "ghi_chu": "Đơn 2 thuốc; ảnh 1 chỉ có 1 viên, ảnh 2 có đủ 2 viên.",
+ "thuoc_trong_don": [
+  {
+   "dong": "1) GLUCOFAST 500 500mg",
+   "cls": 54
+  },
+  {
+   "dong": "2) ENALAPRIL 5mg",
+   "cls": 46
+  }
+ ],
+ "c_don_that": [
+  46,
+  54
+ ],
+ "anh_vien": {
+  "anh_vien_798_0.jpg": [
+   {
+    "cls": 54,
+    "box": [
+     276.1,
+     605.0,
+     383.2,
+     715.2
+    ]
+   }
+  ],
+  "anh_vien_798_1.jpg": [
+   {
+    "cls": 54,
+    "box": [
+     372.1,
+     450.5,
+     493.5,
+     568.6
+    ]
+   },
+   {
+    "cls": 46,
+    "box": [
+     307.6,
+     493.0,
+     381.5,
+     563.8
+    ]
+   }
+  ]
+ },
+ "ghi_chu_khung": "box = [x1,y1,x2,y2] trên ảnh đã thu về cạnh dài 1024 px; nhãn 107 = viên ngoài đơn"
+}
