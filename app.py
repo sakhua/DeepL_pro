@@ -48,30 +48,15 @@ IOU_MATCH = 0.5            # ghép khung dự đoán với khung nhãn thật
 
 CSS = """<style>
 .block-container{padding-top:1.2rem;max-width:1440px}
-.mc-hero{border-radius:16px;background:linear-gradient(120deg,#0f766e 0%,#0e7490 100%);color:#fff;padding:22px 26px 20px;margin-bottom:14px}
-.mc-hero .top{display:flex;align-items:center;gap:16px}
-.mc-hero .logo{font-size:2rem;line-height:1;background:rgba(255,255,255,.16);border-radius:12px;padding:8px 10px}
-.mc-hero .t{font-size:1.6rem;font-weight:700;letter-spacing:.2px}
-.mc-hero .s{font-size:.98rem;opacity:.94;margin-top:3px;max-width:900px}
-.mc-hero.compact{padding:14px 20px 14px}
-.mc-hero.compact .t{font-size:1.3rem}
-.mc-flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:10px;align-items:stretch;margin-top:16px}
-@media (max-width:900px){.mc-flow{grid-template-columns:1fr}.mc-flow .arr{display:none}}
-.mc-flow .arr{align-self:center;font-size:1.4rem;opacity:.8}
-.mc-step{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:12px;padding:12px 14px}
-.mc-step .n{font-size:.78rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;opacity:.85}
-.mc-step .h{font-size:1.05rem;font-weight:700;margin:2px 0 4px}
-.mc-step .d{font-size:.86rem;opacity:.95}
-.mc-step .m{margin-top:7px}
-.mc-step .m span{display:inline-block;font-size:.72rem;background:rgba(255,255,255,.18);border-radius:999px;padding:1px 8px;margin:2px 4px 0 0}
-.mc-step .st{margin-top:8px;font-size:.85rem;font-weight:600;background:rgba(255,255,255,.92);color:#0f172a;border-radius:8px;padding:4px 8px}
-.mc-step .st.off{background:rgba(255,255,255,.2);color:#fff;font-weight:500}
+.mc-hero{border-radius:14px;background:linear-gradient(120deg,#0f766e 0%,#0e7490 100%);color:#fff;padding:16px 22px;margin-bottom:12px;text-align:center}
+.mc-hero .t{font-size:1.45rem;font-weight:700;letter-spacing:.2px}
+.mc-hero .s{font-size:.95rem;opacity:.92;margin-top:2px}
+.mc-run{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 8px;margin-top:10px;align-items:center}
+.mc-run .p{background:rgba(255,255,255,.92);color:#0f172a;border-radius:999px;padding:3px 12px;font-size:.85rem}
+.mc-run .p.off{background:rgba(255,255,255,.2);color:#fff}
+.mc-run .arr{opacity:.8}
 .mc-sec{font-size:1.12rem;font-weight:700;color:#0f172a;margin:2px 0 6px}
 .mc-sec small{font-weight:500;color:#64748b;font-size:.85rem;margin-left:6px}
-.mc-howto{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:4px 0 6px}
-@media (max-width:900px){.mc-howto{grid-template-columns:1fr}}
-.mc-howto div{background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:10px 12px;font-size:.88rem;color:#334155}
-.mc-howto b{color:#0f766e}
 .mc-up-h{font-weight:700;color:#0f172a;font-size:1rem}
 .mc-up-d{font-size:.84rem;color:#64748b;margin:0 0 4px}
 .mc-card{font-size:.86rem;color:#334155;margin:4px 0 6px}
@@ -290,20 +275,14 @@ def draw_pills(img, pills, info, gt=None, missed=()):
     return im
 
 
-def hero(compact, steps):
-    """Đầu trang: hệ thống làm gì (3 bước). steps: [(tiêu đề, mô tả, mô hình, trạng thái hoặc None)]."""
-    sub = ("Chụp <b>đơn thuốc</b> và chụp <b>các viên thuốc</b> sắp uống hoặc sắp cấp phát. Hệ thống đọc đơn, nhận dạng "
-           "từng viên, báo viên nào <b>không có trong đơn</b> và cặp thuốc nào <b>tương tác</b> với nhau.")
-    cards = []
-    for k, (h, d, models, stt) in enumerate(steps, 1):
-        ms = "".join(f"<span>{esc(m)}</span>" for m in models)
-        st_html = "" if stt is None else f"<div class='st{' off' if stt[1] else ''}'>{stt[0]}</div>"
-        cards.append(f"<div class='mc-step'><div class='n'>Bước {k}</div><div class='h'>{h}</div>"
-                     f"<div class='d'>{d}</div><div class='m'>{ms}</div>{st_html}</div>")
-    flow = "<div class='arr'>➜</div>".join(cards)
-    show_html(f"<div class='mc-hero{' compact' if compact else ''}'><div class='top'><div class='logo'>💊</div><div>"
-              f"<div class='t'>MediCheck — Kiểm tra viên thuốc có đúng với đơn không</div>"
-              f"<div class='s'>{sub}</div></div></div><div class='mc-flow'>{flow}</div></div>")
+def hero(statuses=None):
+    """Đầu trang gọn: tên + một dòng mô tả. statuses: [(tên bước, kết quả, đã chạy?)] → một hàng trạng thái ngắn."""
+    row = ""
+    if statuses:
+        row = "<div class='mc-run'>" + "<span class='arr'>➜</span>".join(
+            f"<span class='p{'' if ok else ' off'}'><b>{n}</b> {esc(t)}</span>" for n, t, ok in statuses) + "</div>"
+    show_html("<div class='mc-hero'><div class='t'>💊 MediCheck — Kiểm tra viên thuốc có đúng với đơn không</div>"
+              "<div class='s'>Đọc đơn thuốc · Đối chiếu từng viên với đơn · Cảnh báo tương tác thuốc</div>" + row + "</div>")
 
 
 # ----------------------------------------------------------------------------- dữ liệu ca mẫu
@@ -325,7 +304,8 @@ bad_files = []
 _picked = (ss.get("src_mode") or MODE_SAMPLE) == MODE_SAMPLE and ss.get("sample") in sample_meta
 _label = (f"📂 Đang xem ca mẫu {list(sample_meta).index(ss.sample) + 1} — bấm để chọn ca khác hoặc tải ảnh của bạn"
           if _picked else "📂 Chọn dữ liệu để kiểm tra")
-with st.expander(_label, expanded=not _picked):
+_mid = st.columns([1, 6, 1])[1]          # khung chọn dữ liệu nằm giữa màn hình
+with _mid, st.expander(_label, expanded=not _picked):
     show_html("<div class='mc-sec'>Chọn dữ liệu để kiểm tra"
               "<small>dùng ca mẫu để xem nhanh, hoặc tải ảnh đơn thuốc và ảnh viên thuốc của bạn</small></div>")
     mode = st.segmented_control("Nguồn dữ liệu", [MODE_SAMPLE, MODE_UPLOAD], default=MODE_SAMPLE, key="src_mode",
@@ -397,20 +377,20 @@ has_pres, has_pills = pres_img is not None, bool(pill_imgs)
 
 # Thông báo thiếu ảnh: hệ thống làm được gì, cần tải thêm gì
 if bad_files:
-    st.error("Không mở được: " + ", ".join(bad_files) + ". Hãy chọn ảnh PNG hoặc JPG khác.", icon="🚫")
+    _mid.error("Không mở được: " + ", ".join(bad_files) + ". Hãy chọn ảnh PNG hoặc JPG khác.", icon="🚫")
 if mode == MODE_UPLOAD:
     if not has_pres and not has_pills:
-        st.info("Hãy tải **ảnh đơn thuốc** vào ô bên trái và **ảnh viên thuốc** vào ô bên phải. Có thể tải từng loại; "
+        _mid.info("Hãy tải **ảnh đơn thuốc** vào ô bên trái và **ảnh viên thuốc** vào ô bên phải. Có thể tải từng loại; "
                 "kết quả hiện ngay bên dưới sau khi tải.", icon="👆")
     elif has_pres and not has_pills:
-        st.info("**Đã có ảnh đơn thuốc, chưa có ảnh viên thuốc.** Hệ thống sẽ đọc đơn và kiểm tra tương tác giữa các thuốc "
+        _mid.info("**Đã có ảnh đơn thuốc, chưa có ảnh viên thuốc.** Hệ thống sẽ đọc đơn và kiểm tra tương tác giữa các thuốc "
                 "trong đơn. Tải thêm ảnh viên thuốc ở ô bên phải để đối chiếu từng viên với đơn.", icon="📄")
     elif has_pills and not has_pres:
-        st.warning("**Đã có ảnh viên thuốc, chưa có ảnh đơn thuốc.** Không có đơn thì chưa biết viên nào đúng đơn: hệ thống "
+        _mid.warning("**Đã có ảnh viên thuốc, chưa có ảnh đơn thuốc.** Không có đơn thì chưa biết viên nào đúng đơn: hệ thống "
                    "chỉ đoán tên gần nhất trong 107 loại thuốc của VAIPE để tham khảo, không kết luận đúng/sai. "
                    "Tải thêm ảnh đơn thuốc ở ô bên trái để đối chiếu.", icon="💊")
     else:
-        st.success(f"Đã có ảnh đơn thuốc và {len(pill_imgs)} ảnh viên thuốc — kết quả ở bên dưới.", icon="✅")
+        _mid.success(f"Đã có ảnh đơn thuốc và {len(pill_imgs)} ảnh viên thuốc — kết quả ở bên dưới.", icon="✅")
 
 STEPS = [("Đọc đơn thuốc", "Tìm các dòng chữ, đọc chữ tiếng Việt, phân loại dòng nào là tên thuốc rồi chuẩn hóa "
           "về danh mục thuốc.", ["DBNet", "VietOCR", "PhoBERT", "So khớp tên"]),
@@ -421,13 +401,7 @@ STEPS = [("Đọc đơn thuốc", "Tìm các dòng chữ, đọc chữ tiếng V
 
 if not has_pres and not has_pills:
     with hero_slot.container():
-        hero(False, [(h, d, m, None) for h, d, m in STEPS])
-        show_html("<div class='mc-howto'>"
-                  "<div><b>① Chọn dữ liệu</b><br>Bấm <i>Xem ca này</i> ở một ca mẫu, hoặc chuyển sang <i>Tải ảnh của bạn "
-                  "lên</i>.</div>"
-                  "<div><b>② Xem kết luận</b><br>Ô màu ở đầu kết quả cho biết có viên lạ hay tương tác cần lưu ý không.</div>"
-                  "<div><b>③ Xem chi tiết</b><br>Ba thẻ <i>Đơn thuốc · Đối chiếu viên · Tương tác</i> cho thấy mô hình "
-                  "nhận ra gì ở từng bước.</div></div>")
+        hero()
     st.stop()
 
 # ----------------------------------------------------------------------------- thanh bên: cài đặt
@@ -561,7 +535,7 @@ s2 = (f"✓ {len(all_pills)} viên · {t_pill:.1f} s" + (" · chưa có đơn đ
 s3 = ((f"✓ {len(known)} cặp có mức độ · {len(unk)} cặp chưa rõ", False) if len(groups) >= 2 else
       ("Cần ít nhất 2 thuốc nhận ra trong đơn", True))
 with hero_slot.container():
-    hero(True, [(h, d, m, s) for (h, d, m), s in zip(STEPS, (s1, s2, s3))])
+    hero([(f"{k}. {h}", stt[0], not stt[1]) for k, ((h, _, _), stt) in enumerate(zip(STEPS, (s1, s2, s3)), 1)])
 
 # ----------------------------------------------------------------------------- kết luận tổng hợp
 st.divider()
